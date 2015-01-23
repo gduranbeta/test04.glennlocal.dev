@@ -23,7 +23,7 @@
 		<?php do_atomic( 'open_comment' ); // chun_open_comment ?>
 
 		<div class="comment-side">
-		<?php echo hybrid_avatar(); ?>
+		<?php //echo hybrid_avatar(); ?>
 		</div>
 
 		<?php echo apply_atomic_shortcode( 'comment_author', '[comment-author]'); ?>
