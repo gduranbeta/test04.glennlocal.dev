@@ -36,7 +36,7 @@
 									if($key === 'github') {
 										$key = 'github-alt';
 									}
-									echo '<li><a href="'.$value.'"><i class="icon-'.$key.'"></i></a></li>';
+									echo '<li><a href="'.$value.'" alt="'. $value .'"><i class="icon-'.$key.'"></i></a></li>';
 								}
 							}
 						?>
